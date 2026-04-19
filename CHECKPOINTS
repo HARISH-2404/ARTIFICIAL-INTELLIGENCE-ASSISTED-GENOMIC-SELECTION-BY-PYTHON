@@ -1,0 +1,11 @@
+checkpoints/
+├── ann/
+│   ├── epoch_01.h5
+│   ├── epoch_02.h5
+│   ├── best_model.h5
+│
+├── cnn/
+│   ├── best_model.h5
+│
+├── autoencoder/
+│   ├── best_model.h5
