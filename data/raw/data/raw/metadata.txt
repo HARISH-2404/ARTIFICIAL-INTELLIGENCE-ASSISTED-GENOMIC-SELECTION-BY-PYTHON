@@ -1,0 +1,70 @@
+Project: AI-Assisted Genomic Selection in Tomato
+
+Crop:
+Tomato (Solanum lycopersicum)
+
+Description:
+This dataset contains genotypic (SNP marker) and phenotypic data used for genomic selection studies.
+
+--------------------------------------------------
+Genotypic Data:
+--------------------------------------------------
+File: genotype_matrix_sample.csv
+
+- Rows represent individual genotypes (TOM1–TOM20)
+- Columns represent SNP markers (SNP1–SNP50)
+
+Genotype Coding:
+0 = Homozygous reference allele
+1 = Heterozygous
+2 = Homozygous alternate allele
+
+--------------------------------------------------
+Phenotypic Data:
+--------------------------------------------------
+File: phenotype_traits_sample.csv
+
+Traits Included:
+
+1. Yield_per_Plant
+   - Description: Total fruit yield per plant
+   - Unit: kg/plant
+
+2. Fruit_Weight
+   - Description: Average weight of individual fruits
+   - Unit: grams (g)
+
+3. Fruit_Number
+   - Description: Total number of fruits per plant
+   - Unit: count
+
+4. Plant_Height
+   - Description: Height of plant at maturity
+   - Unit: centimeters (cm)
+
+5. TSS (Total Soluble Solids)
+   - Description: Fruit sugar content
+   - Unit: °Brix
+
+--------------------------------------------------
+Data Notes:
+--------------------------------------------------
+- Genotype IDs are consistent across genotype and phenotype files
+- No missing values in this sample dataset
+- Data is normalized and scaled in processed folder
+
+--------------------------------------------------
+Usage:
+--------------------------------------------------
+This dataset is intended for:
+- PCA analysis
+- Correlation studies
+- Genomic selection model development (RR-BLUP, ML, DL)
+
+--------------------------------------------------
+Author:
+--------------------------------------------------
+Harish
+Ph.D. Scholar
+Genetics and Plant Breeding
+University of Agricultural Sciences, Dharwad
